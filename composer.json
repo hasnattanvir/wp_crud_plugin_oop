@@ -1,0 +1,14 @@
+{
+    "name": "1122/dusraacadamy",
+    "description": "lorem ipsum dorm ect",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dusra\\Academy\\":"includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}
